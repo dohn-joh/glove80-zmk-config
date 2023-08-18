@@ -116,9 +116,7 @@ Key positions
                 <&macro_release>,
                 <&mo 7 &kp LGUI>;
         };
-    };
 
-    macros {
         warpd: warpd {
             label = "warpd";
             compatible = "zmk,behavior-macro";
@@ -132,9 +130,7 @@ Key positions
                 <&macro_release>,
                 <&kp LGUI &kp LALT>;
         };
-    };
 
-    macros {
         ctrl_alt: ctrl_alt {
             label = "ctrl_alt";
             compatible = "zmk,behavior-macro";
@@ -147,45 +143,61 @@ Key positions
                 <&macro_release>,
                 <&kp LCTRL &kp LALT>;
         };
-    };
 
-    macros {
+        back: back {
+            label = "back";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp LEFT>,
+                <&macro_release>,
+                <&kp LALT>;
+
+        forward: forward {
+            label = "forward";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kp LALT>;
+
         rgb_ug_status_macro: rgb_ug_status_macro {
             label = "RGB_UG_STATUS";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&rgb_ug RGB_STATUS>;
         };
-    };
 
-    macros {
         bt_0: bt_0 {
             label = "BT_0";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 0>;
         };
-    };
 
-    macros {
         bt_1: bt_1 {
             label = "BT_1";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 1>;
         };
-    };
 
-    macros {
         bt_2: bt_2 {
             label = "BT_2";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 2>;
         };
-    };
 
-    macros {
         bt_3: bt_3 {
             label = "BT_3";
             compatible = "zmk,behavior-macro";
@@ -250,7 +262,7 @@ Key positions
  &none  &none     &none  &none  &none  &none                                                &none     &none   &none      &none  &none  &none
  &none  &none     &none  &none  &none  &none                                                &none  &kp HOME  &warpd    &kp END  &none  &none
 &trans  &none     &kp PG_UP  &kp PG_DN  &none  &none                                             &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
-&trans  &none     &kp K_FORWARD  &kp K_BACK  &none &none   &trans  &none  &none  &none  &none  &none     &none     &none   &none      &none  &none  &none
+&trans  &none     &forward  &back  &none &none   &trans  &none  &none  &none  &none  &none     &none     &none   &none      &none  &none  &none
  &none  &none     &none  &none  &none         &trans  &none  &none  &none  &trans  &none               &none   &none      &none  &none  &none
             >;
         };
