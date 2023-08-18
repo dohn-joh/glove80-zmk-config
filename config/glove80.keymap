@@ -156,6 +156,7 @@ Key positions
                 <&kp LEFT>,
                 <&macro_release>,
                 <&kp LALT>;
+        };
 
         forward: forward {
             label = "forward";
@@ -169,6 +170,7 @@ Key positions
                 <&kp RIGHT>,
                 <&macro_release>,
                 <&kp LALT>;
+        };
 
         rgb_ug_status_macro: rgb_ug_status_macro {
             label = "RGB_UG_STATUS";
