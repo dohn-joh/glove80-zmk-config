@@ -2,13 +2,13 @@
 
 &mmv {
   acceleration-exponent = <1>;      // 1
-  time-to-max-speed-ms = <100>;    // 40
+  time-to-max-speed-ms = <200>;    // 40
   delay-ms = <0>;                   // 0
 };
 
 &mwh {
   acceleration-exponent = <1>;      // 0
-  time-to-max-speed-ms = <100>;    // 40
+  time-to-max-speed-ms = <200>;    // 40
   delay-ms = <0>;                   // 10
 };
 
