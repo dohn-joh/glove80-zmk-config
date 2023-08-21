@@ -318,7 +318,7 @@ Key positions
             bindings = <
  &none  &none  &none   &none   &none                                                           &none  &none  &none  &none  &none
  &none  &none  &none   &none   &none  &none                                             &none  &none  &none  &none  &none  &none
- &none  &none  &U_WH_U  U_MS_U  &U_WH_D &none                                             &none  &none &none &none &none  &none
+ &none  &none  U_WH_U  U_MS_U  U_WH_D &none                                             &none  &none &none &none &none  &none
 &trans  &none  U_MS_L  U_MS_D U_MS_R  &none                                             &none  &none &none &none &none &none
 &trans  &none  &none  &none &none &none   &none  &none  &none  &none  &none  &none  &none  &none &none &none &none  &tog MOUSE
  &none  &none  &none   &none   &none         U_BTN1  U_BTN2  &none  &none  &trans  &trans         &none  &none  &none  &none  &none
