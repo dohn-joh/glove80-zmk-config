@@ -232,7 +232,7 @@ Key positions
 &none  &kp N1    &kp N2     &kp N3     &kp N4   &kp N5                                                                                &kp N6  &kp N7     &kp N8   &kp N9    &kp N0    &none
         &kp TAB   &kp Q     &kp W      &kp E      &kp R    &kp T                                                                                  &kp Y   &kp U      &kp I    &kp O     &kp P    &kp PRINTSCREEN
       &kp LCTRL   &kp A     &kp S      &kp D    &hl NAV F  &hl RSYM G                                                                          &kp H   &kp J    &hr LSYM K    &kp L  &kp SEMI  &kp SQT
-      &kp LSHFT   &kp Z     &kp X      &kp C      &hl AWM V    &kp B    &kp LGUI      &kp ENTER  &magic MAGIC 0  &none &ctrl_alt  &kp DELETE   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &tog MOUSE
+      &kp LSHFT   &kp Z     &kp X      &kp C      &hl AWM V    &kp B    &kp LGUI      &kp ENTER  &magic MAGIC 0  &none &ctrl_alt  &kp DELETE   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none
           &none &kp CAPS  &none  &none &none          &mo_sl BRACK BRACK  &kp BACKSPACE        &awm            &kp LALT  &kp ENTER   &kp SPACE           &none   &none    &none     &none  &none
             >;
         };
@@ -319,8 +319,8 @@ Key positions
  &none  &none  &none   &none   &none                                                           &none  &none  &none  &none  &none
  &none  &none  &none   &none   &none  &none                                             &none  &none  &none  &none  &none  &none
  &none  &none  U_WH_U  U_MS_U  U_WH_D &none                                             &none  &none &none &none &none  &none
-&trans  &none  U_MS_L  U_MS_D U_MS_R  &none                                             &none  &none &none &none &none &none
-&trans  &none  &none  &none &none &none   &none  &none  &none  &none  &none  &none  &none  &none &none &none &none  &tog MOUSE
+&trans  &none  U_MS_L  U_MS_D U_MS_R  &tog MOUSE                                             &none  &none &none &none &none &none
+&trans  &none  &none  &none &none &none   &none  &none  &none  &none  &none  &none  &none  &none &none &none &none  &none
  &none  &none  &none   &none   &none         U_BTN1  U_BTN2  &none  &none  &trans  &trans         &none  &none  &none  &none  &none
             >;
         };
