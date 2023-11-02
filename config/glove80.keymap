@@ -321,7 +321,7 @@ Key positions
  &none  &none  &none  U_MS_U  &none &none                                             &none  &none &none &none &none  &none
 &trans  &tog MOUSE  U_MS_L  U_MS_D U_MS_R  &tog MOUSE                                             &none  &none &none &none &none &none
 &trans  &none  &none  U_WH_U U_WH_D &none   &trans  &none  &none  &none  &none  &none  &none  &none &none &none &none  &none
- &none  &none  &none   &none   &none         U_BTN1  U_BTN2  &none  &none  U_BTN2  U_BTN1         &none  &none  &none  &none  &none
+ &none  &none  &none   &none   &none         U_BTN1  U_BTN2  &none  &none  U_BTN2  U_BTN1         &tog MOUSE  &none  &none  &none  &none
             >;
         };
     };
