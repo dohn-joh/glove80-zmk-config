@@ -233,7 +233,7 @@ Key positions
         &kp TAB   &kp Q     &kp W      &kp E      &kp R    &kp T                                                                                  &kp Y   &kp U      &kp I    &kp O     &kp P    &kp PRINTSCREEN
       &kp LCTRL   &kp A     &kp S      &kp D    &hl NAV F  &hl RSYM G                                                                          &kp H   &kp J    &hr LSYM K    &kp L  &kp SEMI  &kp SQT
       &kp LSHFT   &kp Z     &kp X      &kp C      &hl AWM V    &kp B    &kp LGUI      &kp ENTER  &magic MAGIC 0  &none &ctrl_alt  &kp DELETE   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none
-          &none &kp CAPS  &none  &none &none          &mo_sl BRACK BRACK  &kp BACKSPACE        &awm            &kp LALT  &kp ENTER   &kp SPACE           &none   &none    &none     &none  &none
+          &none &kp CAPS  &none  &none &none          &mo_sl BRACK BRACK  &kp BACKSPACE        &awm            &kp LALT  &kp ENTER   &kp SPACE           &tog MOUSE   &none    &none     &none  &none
             >;
         };
 
